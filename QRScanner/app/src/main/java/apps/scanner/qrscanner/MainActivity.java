@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 .build();
         cameraSource = new CameraSource
                 .Builder(this, barcodeDetector)
-                .setRequestedPreviewSize(640, 480)
+             //   .setRequestedPreviewSize(640, 480)
                 .build();
         //Add Event
         cameraPreview.getHolder().addCallback(new SurfaceHolder.Callback() {
